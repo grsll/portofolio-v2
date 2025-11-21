@@ -281,6 +281,12 @@
       font-size: 1.6rem;
     }
   }
+
+  &__form-textarea {
+    @extend .contact__form-input;
+    resize: none;
+    height: 12rem;
+  }
   &__btn {
     width: 30%;
 
